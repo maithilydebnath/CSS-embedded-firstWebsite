@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Website with CSS</title>
+    <link rel="shortcut icon" href="form.png" type="image/x-icon">
+    
+    <style>
+        .paraColor{
+        color: rgb(236, 212, 236);
+        background-color: seagreen;
+        height: 25px;
+        width: 60%;
+        font-size: 18px;
+        }
+        h1{color:blueviolet;
+
+        }
+        #ul1{
+            color: brown;
+        }
+        .color1{
+            color: chocolate;
+        }
+        small{
+            color:wheat;
+        }
+        .blog{
+            background-color:cornflowerblue;
+            color:black;
+            width: 60%;
+            border: 5px dashed purple;
+            border-radius: 15px;
+            margin: 20px 10px;
+            padding: 10px 20px;
+        }
+        .author-name{
+            color: greenyellow;
+        }
+        .author-title{
+            color: greenyellow;
+            text-align: center;
+            font-family:sans-serif;
+        }
+        .blog p{
+            text-align: justify;
+        }
+        .inline{
+            display:inline;
+        }
+
+
+    </style>
+   
+</head>
+<body>
+    <h1> Introduction</h1>  
+    This is my First website project with CSS.
+    <p class=paraColor>Practice of first module <small> is going on...</small> </p>
+        <strong>Making List of What I need to serach in google</strong>
+        <ul id=ul1> 
+            <li class=inline>Different Input Types</li>
+            <li class=inline>different types of hr tag </li>
+            <li>div tag to understand more</li>
+        </ul>
+        <b>List of Work for module 1</b>
+        <ol class=color1>
+            <li class=inline>practice module1</li>
+            <li class=inline>writing summary of the module</li>
+            <li>Google search to know more about related topics</li>
+        </ol>
+    link for Course <a href="https://web.programming-hero.com/"> Programming Hero</a><br>
+        <label for="Programming languages">Programming languages:</label>
+
+            <select id="Programming languages">
+            <option value="html">html</option>
+            <option value="css">css</option>
+            <option value="javascript">javascript</option>
+            <option value="c#">c#</option>
+            </select>         
+    <div>
+        division checking
+    </div>
+    <hr style="border-style: dotted;"/>
+    <p class=paraColor>Form 
+        <form action="Get information" method="get"></form>
+        <img src="form.png" alt="form Image"><br>
+        Username: <input type="text" > <br>
+        Password: <input type="password" > <br>
+        Gender : <input type="checkbox"> Male <input type="checkbox"> Female <br>
+        Payment Method: <input type="radio" >Cash
+        <input type="radio"> Card <br>
+        Search: <input type="search" > <br>
+        Email: <input type="email" name="" id="email"> <br>
+        Choose Month: <input type="month" name="" id="month"> <br>
+        Choose File: <input type="file" name="" id="file"> <br>
+        Select Range: <input type="range" name="" id="range"> <br>
+        Choose color: <input type="color" name="" id="color"> <br>
+        Select Date : <input type="date" name="" id="date"> <br>
+        <input type="button" value="Submit">
+        <input type="button" value="Cancel"> <br>
+        
+    </p> 
+    <hr> 
+    <p>
+        <h1>Blog</h1>
+        <div class=blog>
+            <h2 class=author-title>Important information about CSS learning</h2>
+            <small>Author:<span class=author-name>Adriya</span></small>
+            <p>
+            In Head Part , we need to add style. Inside the style need to add where we want to use style. To put style in only specific line, need to add id and use the id name using #tag and if we want to use same color or specification in differnt part of the website , we should use class. which we put dot(.)classname. 
+            </p>
+        </div>
+        <div class=blog>
+        <h2 class=author-title> More information about CSS learning</h2>
+        <small>Author:<span class=author-name>Bristy</span> </small>
+        <p>
+            To create background color all over the area need to use Div.
+            Then whole section will cover with same color. For specific section, we can use span for specifications.
+        </p>
+        </div>
+    </p> 
+</body>
+</html>
